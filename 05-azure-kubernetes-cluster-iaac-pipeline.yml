@@ -19,7 +19,7 @@ steps:
     backendAzureRmContainerName: 'storageacctnirthikcontainer'
     backendAzureRmKey: 'kubernetes-dev.tfstate'
 - task: DownloadSecureFile@1
-  name:publickey
+  name: publickey
   inputs:
     secureFile: 'azure_rsa.pub'
   displayName: 'Run a one-line script'
